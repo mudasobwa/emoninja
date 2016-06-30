@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'emoninja'
+
+if ARGV.size != 1
+  puts 'Please pass string ot file name as command line argument!'
+  exit 101
+end
+
+puts '—' * $stdin.winsize.first
+puts Emoninja.yay(File.exist?(ARGV.first) ? ARGF.read : ARGV.first)
+puts '—' * $stdin.winsize.first
