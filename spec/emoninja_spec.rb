@@ -59,6 +59,13 @@ describe Emoninja do
       An endless fountain of immortal drink,
       Pouring unto us from the heaven's brink.
     POEM
+    max_len = text.split(/\R/).max_by(&:length).length + 2
+    puts '—' * max_len
+    puts text
+    puts '—' * max_len
     puts Emoninja.emojify(text)
+    puts '—' * max_len
+    puts Emoninja.yay(text)
+    puts '—' * max_len
   end
 end

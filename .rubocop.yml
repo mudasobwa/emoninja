@@ -20,6 +20,10 @@ Metrics/AbcSize:
   Max: 42
 
 # STYLE
+Style/Alias:
+  Exclude:
+    - 'lib/**/*'
+
 Style/SignalException:
   EnforcedStyle: semantic
 

@@ -6,7 +6,7 @@ require 'yaml'
 require 'hashie/mash'
 
 module Emoninja
-  @data = nil
+  STOPWORD_MIN_LENGTH = 3
 
   # Utility to grab consortium’s data for emojis
   class Data
@@ -52,6 +52,10 @@ module Emoninja
       end
     end
 
+    def self.stopword? term
+      term.length < STOPWORD_MIN_LENGTH || options[:stopwords].include?(term)
+    end
+
     # @return [Hashie::Mash]
     def self.keywords term
       (cache[:keywords][term.to_s.downcase] || []).map(&data.method(:[])).map(&Hashie::Mash.method(:new))
@@ -64,7 +68,7 @@ module Emoninja
 
     # @return Hash
     def self.vocabulary
-      @vocabulary ||= data.map { |h| [h[:name], h[:glyph]] }.to_h.reject { |k, _| options[:stopwords].include? k }
+      @vocabulary ||= data.map { |h| [h[:name], h[:glyph]] }.to_h.reject { |k, _| stopword?(k) }
     end
 
     # @return Hashie::Mash
