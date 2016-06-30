@@ -9,5 +9,6 @@ if ARGV.size != 1
 end
 
 puts '—' * $stdin.winsize.first
-puts Emoninja.yay(File.exist?(ARGV.first) ? ARGF.read : ARGV.first)
+text = File.exist?(ARGV.first) ? ARGF.read : ARGV.first
+puts Emoninja.yay text.dup
 puts '—' * $stdin.winsize.first
