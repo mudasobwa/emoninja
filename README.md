@@ -24,29 +24,31 @@ Or install it yourself as:
 
 ## Examples:
 
-A thing of beauty is a 😹 for ever:  
-Its lovliness increases; it will never  
-Pass into nothingness; but still will keep  
-A bower 🔕 for 🇻🇮, and a 🛏  
-💯 of 🍮 dreams, and health, and 🔕 breathing.  
-Therefore, on every morrow, are we wreathing  
-A flowery band to bind 🇻🇮 to the 🌐,  
-Spite of despondence, of the inhuman dearth  
-Of noble natures, of the gloomy days,  
-Of all the unhealthy and 🅾'er-darkn'd ways  
-Made for our searching: yes, in spite of all,  
-Some shape of beauty moves away the pall  
-From our 🌑 spirits. Such the 🌤, the 🌚,  
-Trees 🗝 and young, sprouting a shady boon  
-For simple 🐑; and such are daffodils  
-With the 📗 🌎 they live in; and clear rills  
-That for themselves a cooling covert make  
-'Gainst the ☕ season; the mid-forest brake,  
-Rich with a sprinkling of fair musk-🌹 blooms:  
-And such too is the grandeur of the dooms  
-We have imagined for the mighty dead;  
-An endless ⛲ of immortal 🍾,  
-Pouring unto 🇻🇮 from the heaven's brink.  
+| Original | Translated |
+|----------|------------|
+| A thing of beauty is a joy for ever: | A thing of beauty is a 😹 for ever:  |
+| Its lovliness increases; it will never | Its lovliness increases; it will never  |
+| Pass into nothingness; but still will keep | Pass into nothingness; but still will keep  |
+| A bower quiet for us, and a sleep | A bower 🔕 for 🇻🇮, and a 🛏  |
+| Full of sweet dreams, and health, and quiet breathing. | 💯 of 🍮 dreams, and health, and 🔕 breathing.  |
+| Therefore, on every morrow, are we wreathing | Therefore, on every morrow, are we wreathing  |
+| A flowery band to bind us to the earth, | A flowery band to bind 🇻🇮 to the 🌐,  |
+| Spite of despondence, of the inhuman dearth | Spite of despondence, of the inhuman dearth  |
+| Of noble natures, of the gloomy days, | Of noble natures, of the gloomy days,  |
+| Of all the unhealthy and o'er-darkn'd ways | Of all the unhealthy and 🅾'er-darkn'd ways  |
+| Made for our searching: yes, in spite of all, | Made for our searching: yes, in spite of all,  |
+| Some shape of beauty moves away the pall | Some shape of beauty moves away the pall  |
+| From our dark spirits. Such the sun, the moon, | From our 🌑 spirits. Such the 🌤, the 🌚,  |
+| Trees old and young, sprouting a shady boon | Trees 🗝 and young, sprouting a shady boon  |
+| For simple sheep; and such are daffodils | For simple 🐑; and such are daffodils  |
+| With the green world they live in; and clear rills | With the 📗 🌎 they live in; and clear rills  |
+| That for themselves a cooling covert make | That for themselves a cooling covert make  |
+| 'Gainst the hot season; the mid-forest brake, | 'Gainst the ☕ season; the mid-forest brake,  |
+| Rich with a sprinkling of fair musk-rose blooms: | Rich with a sprinkling of fair musk-🌹 blooms:  |
+| And such too is the grandeur of the dooms | And such too is the grandeur of the dooms  |
+| We have imagined for the mighty dead; | We have imagined for the mighty dead;  |
+| An endless fountain of immortal drink, | An endless ⛲ of immortal 🍾,  |
+| Pouring unto us from the heaven's brink. | Pouring unto 🇻🇮 from the heaven's brink.  |
 
 — A Thing Of Beauty (Endymion) - Poem by John Keats
 
