@@ -64,14 +64,14 @@ module Emoninja
 
     # @return Hash
     def self.vocabulary
-      @vocabulary ||= data.map { |h| [h[:name], h[:glyph]] }.to_h
+      @vocabulary ||= data.map { |h| [h[:name], h[:glyph]] }.to_h.reject { |k, _| options[:stopwords].include? k }
     end
 
     # @return Hashie::Mash
     def self.argo
       @argo ||= data.each_with_object(Hashie::Mash.new) do |h, memo|
         h[:keywords].each do |kw|
-          (memo[kw] ||= []) << h[:glyph]
+          (memo[kw] ||= []) << h[:glyph] unless options[:stopwords].include?(kw)
         end
       end
     end
@@ -87,6 +87,10 @@ module Emoninja
 #    Data.kungfuig(LOCAL_DATA) do |options|
 #      options.other_value = options[:value]
 #    end
+
+    File.join(__dir__, '..', '..', 'config', 'emoninja.yml').tap do |cfg|
+      kungfuig(cfg) if File.exist?(cfg)
+    end
 
     class << self
       private
