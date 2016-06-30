@@ -94,6 +94,52 @@ require 'emoninja' # wherever applicable
 | Falling, yes I am falling | 🌠, yes I am 🌠 |
 | And she keeps calling | And she keeps 🤙 |
 | Me back again | Me 🔙 again |
+— The Beatles, I’ve just seen a face
+
+---
+
+### Bonus track. The Beatles, Drive My Car
+
+Asked a 👧 what she wanted to be
+She said 👶, "Can't you 🙈
+I wanna be famous, a ✡ on the screen
+But you can do something in between"
+
+👶 you can drive my 🚓
+Yes I'm gonna be a ✡
+👶 you can drive my 🚓
+And maybe I 😻 you
+
+I told a 👧 that my prospects were good
+And she said 👶, "It's understood
+Working for 🥜 is all very fine
+But I can show you a better time"
+
+👶 you can drive my 🚓
+Yes I'm gonna be a ✡
+👶 you can drive my 🚓
+And maybe I 😻 you
+Beep beep'm beep beep yeah
+
+👶 you can drive my 🚓
+Yes I'm gonna be a ✡
+👶 you can drive my 🚓
+And maybe I 😻 you
+
+I told that 👧 I can start ⏯ away
+And she said, "Listen 👶 I got something to say
+I got 🙅 🚓 and it's 💔 my 💘
+But I've found a driver and that's a start"
+
+👶 you can drive my 🚓
+Yes I'm gonna be a ✡
+👶 you can drive my 🚓
+And maybe I 😻 you
+Beep beep'm beep beep yeah
+Beep beep'm beep beep yeah
+Beep beep'm beep beep yeah
+Beep beep'm beep beep yeah (fade out)
+
 
 ## ToDo
 
