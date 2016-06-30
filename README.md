@@ -42,6 +42,59 @@ require 'emoninja' # wherever applicable
 | Pouring unto us from the heaven's brink.           | Pouring unto us from the heaven's brink.  |
 — A Thing Of Beauty (Endymion) - Poem by John Keats
 
+---
+
+| Original | Translated |
+|----------|------------|
+| I've just seen a face | I've just seen a 😵 |
+| I can't forget the time or place | I can't forget the time or place |
+| Where we just met | Where we just met |
+| She's just the girl for me | She's just the 👧 for me |
+| And I want all the world to see | And I want all the 🌏 to 🙈 |
+| We've met, mmm-mmm-mmm-m'mmm-mmm | We've met, mmm-mmm-mmm-m'mmm-mmm |
+|  |  |
+| Had it been another day | Had it been another day |
+| I might have looked the other way | I might have looked the other way |
+| And I'd have never been aware | And I'd have never been aware |
+| But as it is I'll dream of her | But as it is I'll dream of her |
+| Tonight, di-di-di-di'n'di | Tonight, di-di-di-di'n'di |
+|  |  |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 🤙 |
+| Me back again | Me 🔙 again |
+|  |  |
+| I have never known | I have never known |
+| The like of this, I've been alone | The like of this, I've been alone |
+| And I have missed things | And I have missed things |
+| And kept out of sight | And kept out of sight |
+| But other girls were never quite | But other 👨‍👨‍👧‍👦 were never quite |
+| Like this, da-da-n'da-da'n'da | Like this, da-da-n'da-da'n'da |
+|  |  |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 📲 |
+| Me back again | Me 🔙 again |
+|  |  |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 🤙 |
+| Me back again | Me 🔙 again |
+|  |  |
+| I've just seen a face | I've just seen a 😵 |
+| I can't forget the time or place | I can't forget the time or place |
+| Where we just met | Where we just met |
+| She's just the girl for me | She's just the 👧 for me |
+| And I want all the world to see | And I want all the 🌏 to 🙈 |
+| We've met, mmm-mmm-mmm-da-da-da | We've met, mmm-mmm-mmm-da-da-da |
+|  |  |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 🤙 |
+| Me back again | Me 🔙 again |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 🤙 |
+| Me back again | Me 🔙 again |
+| Falling, yes I am falling | 🌠, yes I am 🌠 |
+| And she keeps calling | And she keeps 🤙 |
+| Me back again | Me 🔙 again |
+
 ## ToDo
 
 — flags and other combineds are not treated properly;  
