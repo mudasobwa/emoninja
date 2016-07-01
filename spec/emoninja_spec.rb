@@ -27,10 +27,21 @@ describe Emoninja do
 
   it 'should return the correct emojis of "GRINNING FACE"' do
     expect(Emoninja::Data.emoji('grinning face')).to eq('😀')
-    expect(Emoninja::Data.emoji('grin', exact: false, number: 0)).to eq('😁')
+    expect(Emoninja::Data.emoji('grin', exact: false, number: 0)).to eq('😀')
     10.times { print Emoninja::Data.emoji('grin', exact: false) }
     puts
     expect(Emoninja::Data.emoji('grin', exact: false).length).to eq 1
+  end
+
+  it 'should return the correct emojis of "ОСКАЛЕННЫМ ЛИЦОМ"' do
+    expect(Emoninja::Data.emoji('оскаленным лицом', lang: :ru)).to eq('😀')
+    expect(Emoninja::Data.emoji('оскал', exact: false, number: 0, lang: :ru)).to eq('😀')
+    10.times { print Emoninja::Data.emoji('оскал', exact: false, lang: :ru) }
+    puts
+    puts Emoninja.аватарки 'Пицца оскаленным лицом кроссовки в пицце (пицца).'
+    # FIXME: we got a problem with wrong translations as well
+    expect(Emoninja.аватарки('Пицца оскаленным лицом кроссовки в пицце (пицца).')).to eq 'Пиццa 😀 👟 v пицце (🍕).'
+    expect(Emoninja::Data.emoji('оскал', exact: false, lang: :ru).length).to eq 1
   end
 
   it 'translates John Keats to emojish' do

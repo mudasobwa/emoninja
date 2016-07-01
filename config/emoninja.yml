@@ -1,2 +1,7 @@
 stopwords:
   - us
+
+translate:
+  languages:
+    - ru
+    - es

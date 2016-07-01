@@ -37,5 +37,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'hashie', '~> 3'
   spec.add_dependency 'kungfuig', '~> 0.7'
+  spec.add_dependency 'forkforge'
   spec.add_dependency 'nokogiri'
+  spec.add_dependency 'yandex-api'
 end

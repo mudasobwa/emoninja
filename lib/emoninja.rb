@@ -1,6 +1,11 @@
+require 'forkforge'
+require 'forkforge/knife/string'
+
 require 'emoninja/version'
 require 'emoninja/porter_stemmer'
 require 'emoninja/grabber'
+require 'emoninja/data'
+require 'emoninja/i18n'
 
 module Emoninja
   class << self
@@ -21,5 +26,21 @@ module Emoninja
       end
     end
     alias_method :yay, :emoninja
+
+    # rubocop:disable Style/MethodName
+    # rubocop:disable Style/OpMethod
+    def аватар text
+      Data.emoji(text, exact: false, number: 0, lang: :ru)
+    end
+
+    # NB this won’t work with cased words, since `Regexp`
+    #    is currently failing to match it.
+    # Will fix later.
+    def аватарки text
+      emoninja(text.gsub(Regexp.union(I18n.ru_en.keys), I18n.ru_en))
+    end
+    alias_method :йо, :аватарки
+    # rubocop:enable Style/OpMethod
+    # rubocop:enable Style/MethodName
   end
 end
