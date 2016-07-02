@@ -35,7 +35,7 @@ module Emoninja
       def reversed_translations lang
         (@reversed_translations ||= {})[lang] ||= translations(lang).invert.map { |k, v| [k.downcase, v.downcase] }.to_h
       end
-      %i(ru).each do |m|
+      Data.options.translate!.languages!.each do |m|
         class_eval <<-METH
         def #{m}_en
           reversed_translations(:#{m})
