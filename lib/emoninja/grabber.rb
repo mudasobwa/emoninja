@@ -27,17 +27,24 @@ module Emoninja
             YAML.load File.read LOCAL_DATA
           else
             Nokogiri::HTML(open(LOCAL_CACHE)).xpath('//table/tr').tap(&:shift).map do |tr|
+              next if tr.children[28].nil? || tr.children[28].text.strip.empty?
               {
-                name: tr.children[30].text,
-                keywords: tr.children[36].text.split(',').map(&:strip),
-                code: tr.children[2].text, glyph: tr.children[4].text,
-                apple: blob(tr, 6), google: blob(tr, 8), twitter: blob(tr, 10),
-                one: blob(tr, 12), fbm: blob(tr, 14), windows: blob(tr, 16),
+                name: tr.children[28].text,
+                keywords: tr.children[28].text.split(':').map(&:strip),
+                code: tr.children[2].text,
+                glyph: tr.children[4].text,
+                apple: blob(tr, 6),
+                google: blob(tr, 8),
+                twitter: blob(tr, 10),
+                one: blob(tr, 12),
+                fbm: blob(tr, 14),
+                windows: blob(tr, 16),
                 samsung: blob(tr, 18)
               }
-            end.tap { |data| File.write(LOCAL_DATA, data.to_yaml) }
+            end.compact.tap { |data| File.write(LOCAL_DATA, data.to_yaml) }
           end
-        rescue
+        rescue => e
+          puts e.message
           File.delete(LOCAL_DATA)
           retry
         end.tap do |data|

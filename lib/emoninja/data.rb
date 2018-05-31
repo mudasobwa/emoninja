@@ -1,8 +1,6 @@
 require 'kungfuig'
 
 module Emoninja
-  STOPWORD_MIN_LENGTH = 3
-
   # Utility to grab consortium’s data for emojis
   module Data
     include Kungfuig

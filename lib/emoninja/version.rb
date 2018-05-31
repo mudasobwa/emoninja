@@ -1,3 +1,3 @@
 module Emoninja
-  VERSION = '0.2.42'.freeze
+  VERSION = '0.3.0'.freeze
 end
